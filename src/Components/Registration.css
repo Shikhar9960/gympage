@@ -1,0 +1,67 @@
+/* src/RegistrationForm.css */
+.registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.776)), url(https://images.unsplash.com/photo-1521805103424-d8f8430e8933?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+  }
+  
+  .registration-form {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.934) 0px 2px 20px;
+    width: 500px;
+    
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000;
+  }
+  
+  .submit-button {
+    
+    padding: 10px;
+    background-color: #5f6460;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto;
+  }
+  
+  .submit-button:hover {
+    background-color: #c5c1c1;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto ;
+
+  }
+  

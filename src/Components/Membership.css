@@ -1,0 +1,54 @@
+.membership-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+ 
+  background-color: #000000;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.934) 0px 2px 20px;
+}
+
+.membership-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.membership-form input,
+.membership-form select {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.membership-form button {
+  padding: 10px 15px;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.membership-form button:hover {
+  
+  background-color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+.membership-container h2{
+  color: rgb(255, 255, 255);
+  padding: 25px;
+}
